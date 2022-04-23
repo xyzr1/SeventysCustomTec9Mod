@@ -74,7 +74,7 @@ namespace SeventysCustomTec9Mod
                 bullet.AddComponent<Rigidbody>();
                 bullet.transform.localScale = new Vector3(bulletScale.Value, bulletScale.Value, bulletScale.Value);
                 bullet.GetComponent<SphereCollider>().enabled = false;
-                bullet.layer = 18;
+                bullet.layer = 50;
                 bullet.AddComponent<Rigidbody>();
 
                 Stream str = Assembly.GetExecutingAssembly().GetManifestResourceStream("SeventysCustomTec9Mod.Assets.seventystec9");
